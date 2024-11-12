@@ -10,12 +10,9 @@
 2. **Beautiful Typography and Layouts**  
    Grilli features a clean, modern layout with visually appealing typography. Sections are thoughtfully designed to create a smooth user experience and guide visitors through your restaurant's story, menu, and contact information.
 
-3. **Content Sections**  
-   - **Hero Section**: A large, eye-catching section at the top of the page that usually features a background image and a slogan or welcoming text. Perfect for a first impression.
-   - **About Us**: Share the story of your restaurant, its history, or its unique qualities that make it stand out.
-   - **Menu Display**: Showcase your dishes in an organized, visually appealing manner. You can categorize items, add descriptions, and include prices.
-   - **Gallery**: Display high-quality images of your food, atmosphere, or events to entice visitors.
-   - **Contact Information**: Provides an easy way for customers to reach out, make reservations, or locate your restaurant.
+3. **Table reservation and newsletter subscription backend integration**  
+   - **Table Reservation**: This helps users to book tables by entering their name, phone number, number of people, date, timing and personalized message in the form and all this information gets stored in the backend.
+   - **Newsletter Subscription**: This feature gives user a option to submit their email address in order to recieve the monthly newsletter.
 
 
 ## Technical Details
@@ -34,13 +31,16 @@
 1. **Open the Project**
    Open the project files in your preferred text editor (e.g., Visual Studio Code).
 
-2. **Launch in a Browser**
-   Open `index.html` in your web browser to view the website.
+2. **Run Backend**  
+   To run the backend, open a terminal and execute the following command:
 
-3. **Run backend**
-   In order to run the backend, run *node server.js* in the terminal
+   ```bash
+   node server.js
+
+3. **Launch in a Browser**
+   Open `index.html` in your web browser to view the website.
 
 
 ### Live Demo
 
-[View the demo here](https://github.com/user-attachments/assets/e849389e-e742-44bb-9fee-b132fcff08d5) (Replace `#` with the demo link if available)
+[View the demo here](https://github.com/user-attachments/assets/7dd76c28-5ca2-423d-af90-3c3162badbb6) 
