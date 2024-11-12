@@ -32,7 +32,7 @@
    Open the project files in your preferred text editor (e.g., Visual Studio Code).
 
 2. **Run Backend**  
-   To run the backend, open a terminal and execute the following command:
+   To run the backend, open a terminal and do cd backend and execute the following command:
 
    ```bash
    node server.js
@@ -41,6 +41,6 @@
    Open `index.html` in your web browser to view the website.
 
 
-### Live Demo
+### Live Demo For Backend Integration
 
 [View the demo here](https://github.com/user-attachments/assets/7dd76c28-5ca2-423d-af90-3c3162badbb6) 
