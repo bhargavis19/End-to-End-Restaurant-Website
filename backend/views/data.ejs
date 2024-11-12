@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reservation and Email Data</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Reservations</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Number of Persons</th>
+        <th>Reservation Time</th>
+        <th>Reservation Date</th>
+        <th>Message</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% reservations.forEach(function(reservation) { %>
+        <tr>
+          <td><%= reservation.name %></td>
+          <td><%= reservation.phone %></td>
+          <td><%= reservation.numberOfPersons %></td>
+          <td><%= reservation.reservationTime %></td>
+          <td><%= reservation.reservationDate %></td>
+          <td><%= reservation.message %></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+
+  <h1>Emails</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% emails.forEach(function(email) { %>
+        <tr>
+          <td><%= email.email %></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>
